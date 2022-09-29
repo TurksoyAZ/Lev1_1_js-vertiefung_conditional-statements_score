@@ -2,7 +2,7 @@ const output = document.getElementById("output");
 const inputT = document.getElementById("inputText");
 
 function sendInfo() {
-  if (inputT.value <= 18) {
+  if (inputT.value <= 17) {
     console.log(false),
       (output.innerHTML = "Du bist minderjährig!!!"),
       (output.style.color = "red");
